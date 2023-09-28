@@ -1,0 +1,125 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.header-bg{
+    background-color: rgba(0,0,0,.8);
+    transition: 0.5s;
+}
+.header  h2{
+    color: #fff;
+}
+
+.nav-item{
+    display: flex;
+    list-style-type: none;
+}
+.nav-item li{
+padding: 0 1rem;
+list-style: none;
+}
+
+.nav-item li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+.butn{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: yellow;
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    margin: .2rem;
+}
+.butn:hover{
+    /* background: rgba(0,0,0,.2);
+    color: #fff;
+    transition: 0.6s; */
+
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+.sidebar{
+    display: none;
+}
+/* HOME page */
+
+.mask{
+    width: 100%;
+     height: 100%;
+     position: absolute;
+}
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .6;
+}
+.into-img{
+    width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+}
+.img-section{
+    height: 100%;
+    width: 100%;
+}
+.img-section .con{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.ab{
+    position: absolute;
+    top: 100%; 
+}
+.tex{
+    display: none;
+}
+/* Skill section ............ */
+h2,h3{
+    color: #fff;
+}
+.man{
+    padding: 25px;
+}
+.man .skill{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(5,5,5,.6);
+    box-shadow: 1px 1px 12px #1b1a1a;
+    
+}
+.man .skill img{
+    width: 150px; 
+    height: 170px; 
+    object-fit: cover;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.man:hover{
+    
+    padding: 15px;
+}
