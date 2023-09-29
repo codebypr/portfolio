@@ -35,7 +35,7 @@ function AboutContent() {
               <h2>CSS</h2>
             </div>
             <div className="progress mt-2" >
-              <div className="progress-bar " style={{ width: '92%' ,backgroundColor: '#03a1fc',color:'black'}}>92%</div>
+              <div className="progress-bar " style={{ width: '92%' ,backgroundColor: '#03a1fc'}}>92%</div>
             </div>
           </div>
           <div className="man col-lg-3 col-sm-4 col-6">
@@ -58,7 +58,7 @@ function AboutContent() {
           </div>
           <div className="man col-lg-3 col-sm-4 col-6">
             <div className="skill">
-              <img src={rec}  alt=''style={{width:'170px'}} />
+              <img id='rec' src={rec}  alt=''/>
               <h2>React</h2>
             </div>
             <div className="progress mt-2" >
@@ -80,7 +80,7 @@ function AboutContent() {
               <h2>C</h2>
             </div>
             <div className="progress mt-2" >
-              <div className="progress-bar " style={{ width: '87%' ,backgroundColor: '#037bfc' ,color:'black'}}>87%</div>
+              <div className="progress-bar " style={{ width: '87%' ,backgroundColor: '#037bfc'}}>87%</div>
             </div>
           </div>
           <div className="man col-lg-3 col-sm-4 col-6">
@@ -89,7 +89,7 @@ function AboutContent() {
               <h2>MySql</h2>
             </div>
             <div className="progress mt-2" >
-              <div className="progress-bar " style={{ width: '75%' ,backgroundColor: '#037bfc' ,color:'black'}}>75%</div>
+              <div className="progress-bar " style={{ width: '75%' ,backgroundColor: '#037bfc'}}>75%</div>
             </div>
           </div>
         </div>

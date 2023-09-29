@@ -13,7 +13,7 @@ export class App extends Component {
       <div>
         <NavBar/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/portfolio' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/project' element={<Project/>}/>
           <Route path='/contact' element={<Contact/>}/>

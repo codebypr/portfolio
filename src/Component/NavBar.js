@@ -22,9 +22,9 @@ export default function NavBar() {
     window.addEventListener("scroll", changeNavColor);
     return (
       <div className={color?"header header-bg":"header" }>
-      <Link to="/" style={{textDecoration:'none'}}><h2>Portfolio</h2></Link>
+      <Link to="/portfolio" style={{textDecoration:'none'}}><h2>Portfolio</h2></Link>
        <ul className={click?"nav-item active":"nav-item"}>
-        <li><Link to="/" onClick={handelClick}>Home</Link></li>
+        <li><Link to="/portfolio" onClick={handelClick}>Home</Link></li>
         <li><Link to="/about" onClick={handelClick}>About</Link></li>
         <li><Link to="/project" onClick={handelClick}>Project</Link></li>
         <li><Link to="/contact" onClick={handelClick}>Contact</Link></li>

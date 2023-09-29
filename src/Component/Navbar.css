@@ -1,3 +1,9 @@
+
+/* **************************** */
+h1,h2,h3{
+    color: #fff;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -11,9 +17,7 @@
     background-color: rgba(0,0,0,.8);
     transition: 0.5s;
 }
-.header  h2{
-    color: #fff;
-}
+
 
 .nav-item{
     display: flex;
@@ -35,7 +39,7 @@ list-style: none;
     padding: 12px 32px;
     font-size: 1rem;
     text-transform: uppercase;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.791); 
     color: black;
     border: 1px solid white;
     font-weight: 600;
@@ -43,9 +47,9 @@ list-style: none;
     margin: .2rem;
 }
 .butn:hover{
-    /* background: rgba(0,0,0,.2);
+    background: rgba(0,0,0,.2);
     color: #fff;
-    transition: 0.6s; */
+    transition: 0.6s;
 
     box-shadow: 0 0 5px cyan,
     0 0 25px cyan, 0 0 50px cyan,
@@ -88,6 +92,7 @@ list-style: none;
     top: 50%;
     left: 50%;
     text-align: center;
+   
 }
 .ab{
     position: absolute;
@@ -97,9 +102,7 @@ list-style: none;
     display: none;
 }
 /* Skill section ............ */
-h2,h3{
-    color: #fff;
-}
+
 .man{
     padding: 25px;
 }
@@ -108,16 +111,18 @@ h2,h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(5,5,5,.6);
-    box-shadow: 1px 1px 12px #1b1a1a;
+    background-color:black;
+    box-shadow: 1px 5px 12px #f5efef;
     
 }
 .man .skill img{
     width: 150px; 
     height: 170px; 
     object-fit: cover;
-    margin-bottom: 10px;
-    padding: 0px;
+    margin-bottom: 10px; 
+}
+.man .skill #rec{
+    width: 170px;
 }
 .man:hover{
     

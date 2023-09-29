@@ -38,12 +38,30 @@
 }
 
 @media screen and (max-width: 640px) {
+    .con{
+        width: 100%;
+    }
     .con h1{
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
-    .con p{
-        font-size: 1.4rem;
-    }
+   /* Skill section */
+   .skills{
+    padding: 20px;
+   }
+   .man{
+    padding: 10px;
+}
+  .man .skill{
+    padding: 0px ;
+  } 
+.man .skill img{
+    width: 120px; 
+    height: 120px; 
+    padding: 10px;
+}
+.man .skill #rec{
+    width: 120px;
+}
 
 }
 

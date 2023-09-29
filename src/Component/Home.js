@@ -14,9 +14,9 @@ export default function Home() {
                 <div className="mask">
                     <img className="into-img" src={pr} alt="" />
                 </div>
-                <div className="con text-white">
+                <div className="con text-white" >
 
-                    <span style={{ fontSize: '2em' }}>Hi I am  </span >
+                    <span style={{ fontSize: '2em' }}>Hi I am </span >
                     <TypeAnimation
                         sequence={[
                             ' Java Developer',
