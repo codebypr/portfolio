@@ -13,7 +13,7 @@ export default function NavBar() {
 
     const[color,setColor]=useState(false);
     const changeNavColor=()=>{
-      if(window.scrollY>=10)
+      if(window.scrollY>=50)
       setColor(true);
     else
     setColor(false);
@@ -22,7 +22,7 @@ export default function NavBar() {
     window.addEventListener("scroll", changeNavColor);
     return (
       <div className={color?"header header-bg":"header" }>
-      <Link to="/portfolio" style={{textDecoration:'none'}}><h2>Portfolio</h2></Link>
+      <Link to="/portfolio" style={{textDecoration:'none'}}><h2 style={{fontWeight:'800'}}>Portfolio</h2></Link>
        <ul className={click?"nav-item active":"nav-item"}>
         <li><Link to="/portfolio" onClick={handelClick}>Home</Link></li>
         <li><Link to="/about" onClick={handelClick}>About</Link></li>

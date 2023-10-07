@@ -1,6 +1,6 @@
 
 /* **************************** */
-h1,h2,h3{
+h1,h2,h3,h4,h5,p{
     color: #fff;
 }
 
@@ -38,16 +38,15 @@ list-style: none;
 .butn{
     padding: 12px 32px;
     font-size: 1rem;
-    text-transform: uppercase;
-    background-color: rgba(255, 255, 0, 0.791); 
-    color: black;
+    color: cyan;
     border: 1px solid white;
     font-weight: 600;
     cursor: pointer;
     margin: .2rem;
+    background: rgba(0,0,0,.1);
+    text-decoration: none;
 }
 .butn:hover{
-    background: rgba(0,0,0,.2);
     color: #fff;
     transition: 0.6s;
 
@@ -55,6 +54,20 @@ list-style: none;
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
 }
+.im{
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    transition: 0.6s;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 6px;
+}
+.im:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
 .sidebar{
     display: none;
 }
@@ -73,7 +86,7 @@ list-style: none;
     top: 0;
     left: 0;
     background-color: black;
-    opacity: .6;
+    opacity: .4;
 }
 .into-img{
     width: 100%;
@@ -97,10 +110,20 @@ list-style: none;
 .ab{
     position: absolute;
     top: 100%; 
+    /* About................. */                   
 }
-.tex{
-    display: none;
+.Abimage{
+    width: 20%;
+    border-left: 4px solid orange;
+    border-right: 4px solid orange;
+    border-radius: 25%;
+    padding-left: 8px;
+    box-shadow: 0 0 2px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 50px cyan, 0 0 100px cyan;
+    /* background-color:yellow ; */
 }
+
 /* Skill section ............ */
 
 .man{
@@ -110,10 +133,9 @@ list-style: none;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    padding: 25px;
     align-items: center;
-    background-color:black;
-    box-shadow: 1px 5px 12px #f5efef;
-    
+    background-color:rgb(11, 11, 11);    
 }
 .man .skill img{
     width: 150px; 
@@ -125,6 +147,8 @@ list-style: none;
     width: 170px;
 }
 .man:hover{
-    
-    padding: 15px;
+    .skill h2{
+        color: #ff0082;
+    }
 }
+/* Qualification section .............. */

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import "./Navbar.css";
 import "./style.css";
 import java from "../MyImage/java.png"
@@ -9,6 +10,7 @@ import html from "../MyImage/html.png"
 import css from "../MyImage/css.png"
 import boots from "../MyImage/boots.png"
 import C from "../MyImage/C.png"
+import Qualification from './Qualification';
 
 
 function AboutContent() {
@@ -18,7 +20,7 @@ function AboutContent() {
       {/* Skill section .............. */}
 
       <div className="skills container text-center" >
-        <h1 style={{color:'#ff0082'}}>SKILLS</h1>
+        <h1 style={{color:'#ff0082'}} className='my-0'>SKILLS</h1><p>My technical level</p><hr className='text-white'/>
         <div className="row">
           <div className="man col-lg-3 col-sm-4 col-6">
             <div className="skill">
@@ -95,8 +97,13 @@ function AboutContent() {
         </div>
         </div>
       
-    
-
+    {/* Quallification section  */}
+    <div className="skills container pt-3" >
+        <div className="text-center">
+        <h1 style={{color:'#ff0082'}} className='my-0'>Qualification</h1><p>My personal journey</p><hr className='text-white'/>
+        </div>
+    <Qualification/>
+    </div>
     </>
   )
 }
