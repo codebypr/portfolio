@@ -31,7 +31,7 @@ function ProjectContent() {
           <CollegeImgCard id="college" img1={col1} img2={col2} img3={col3} img4={col4} img5={col5} img6={col6}/>
   <div className="card-body " style={{backgroundColor:'#3b3d3b'}}>
     <h3 className="card-title">College Management System</h3>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius adipisci porro, quisquam illum recusandae ad distinctio totam facere, quaerat architecto aliquid non fugiat magni odio? Ipsam eligendi ullam molestias!</p>
+    <p className="card-text">The College Management System is a Java Swing-based software application that serves as an integrated platform for colleges and educational institutions to efficiently manage their administrative and academic operations. This project leverages the MySQL database for data storage and retrieval, ensuring a robust and secure foundation.</p>
     <p className='m-0'>2 years ago</p>
   </div>
   <div className="card-footer bg-dark">
@@ -50,7 +50,7 @@ function ProjectContent() {
       <img src={t1} class="card-img-top" alt="..."/>
   <div className="card-body " style={{backgroundColor:'#3b3d3b'}}>
     <h3 className="card-title">TextUtils App</h3>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius adipisci porro, quisquam illum recusandae ad distinctio totam facere, quaerat architecto aliquid non fugiat magni odio? Ipsam eligendi ullam molestias!</p>
+    <p className="card-text">I have developed a React application that serves as a text modification tool, allowing users to manipulate and modify text content.This App offers a simple yet powerful tool for users to manipulate and customize text content according to their needs.</p>
     <p className='m-0'>1 years ago</p>
   </div>
   <div className="card-footer bg-dark">
@@ -68,8 +68,8 @@ function ProjectContent() {
  <CollegeImgCard id="blog" img1={b2} img2={b3} img3={b4} img4={b5} img5={b6} img6={b1}/>
   <div className="card-body " style={{backgroundColor:'#3b3d3b'}}>
     <h3 className="card-title">Bloging Website</h3>
-    <b>Java with mysql </b>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius adipisci porro, quisquam illum recusandae ad distinctio totam facere, quaerat architecto aliquid non fugiat magni odio? Ipsam eligendi ullam molestias!</p>
+   
+    <p className="card-text">I have developed a Blogging website that combines a Java-based backend with a MySQL database for data management and utilizes frontend technologies like HTML, CSS, JavaScript, Bootstrap, and jQuery to deliver an engaging and user-friendly blogging platform.It provides an interactive and dynamic platform for bloggers to share their thoughts, stories, and expertise with a wider audience. The combination of frontend and backend technologies ensures a seamless and feature-rich experience for both bloggers and readers, making it a valuable resource in the world of online content creation and consumption.</p>
     <p className='m-0'>7 month ago</p>
   </div>
   <div className="card-footer bg-dark">
@@ -86,7 +86,7 @@ function ProjectContent() {
       <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/11/breaking-1603159815-1606179737.jpg" class="card-img-top" alt="..."/>
   <div className="card-body " style={{backgroundColor:'#3b3d3b'}}>
     <h3 className="card-title">News App</h3>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius adipisci porro, quisquam illum recusandae ad distinctio totam facere, quaerat architecto aliquid non fugiat magni odio? Ipsam eligendi ullam molestias!</p>
+    <p className="card-text">I have developed a React application that functions as a news aggregator, allowing users to access a wide range of news articles from various sources and categories.It offers a user-friendly interface and a wide array of features .The app may rely on APIs or data feeds from various news outlets to fetch and display news content.</p>
     <p className='m-0'>1.5 years ago</p>
   </div>
   <div className="card-footer bg-dark">
@@ -106,7 +106,7 @@ function ProjectContent() {
       <img src={imusic} class="card-img-top" alt="..."/>
   <div className="card-body " style={{backgroundColor:'#3b3d3b'}}>
     <h3 className="card-title">iMusic android App</h3>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius adipisci porro, quisquam illum recusandae ad distinctio totam facere, quaerat architecto aliquid non fugiat magni odio? Ipsam eligendi ullam molestias!</p>
+    <p className="card-text"> I have developed an Android music application called "iMusic" using the Java programming language. The app includes essential audio controls like play, pause, skip, shuffle, and repeat to provide a seamless music playback experience.</p>
     <p className='m-0'>1.5 years ago</p>
   </div>
   <div className="card-footer bg-dark">
@@ -124,7 +124,7 @@ function ProjectContent() {
       <img src={calculator} class="card-img-top" alt="..."/>
   <div className="card-body " style={{backgroundColor:'#3b3d3b'}}>
     <h3 className="card-title">Calculator android App</h3>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius adipisci porro, quisquam illum recusandae ad distinctio totam facere, quaerat architecto aliquid non fugiat magni odio? Ipsam eligendi ullam molestias!</p>
+    <p className="card-text">I havecreated an Android calculator application named "Calculator" using the Java programming language. The Calculator app provides users with the ability to perform standard mathematical operations, including addition, subtraction, multiplication, and division.</p>
     <p className='m-0'>2 years ago</p>
   </div>
   <div className="card-footer bg-dark">
