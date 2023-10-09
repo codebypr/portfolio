@@ -131,7 +131,7 @@ function ProjectContent() {
   <div className="d-flex justify-content-between align-items-center">
     <p><AiOutlineHeart size={30} style={{color: 'red'}}/> 22k </p>
    
-    <a href='calculator.apk' download className="btn btn-warning ">Download</a>
+    <a href='app-debug.apk' download className="btn btn-warning ">Download</a>
     </div>
   </div>
 </div>
