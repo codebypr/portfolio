@@ -75,7 +75,7 @@ function ProjectContent() {
   <div className="card-footer bg-dark">
   <div className="d-flex justify-content-between align-items-center">
     <p><AiOutlineHeart size={30} style={{color: 'red'}}/> 851k </p>
-    <Link to="#" className="btn btn-outline-warning">SOURCE</Link>
+    <Link to="https://github.com/codebypr/tech-blog/tree/main/TechBlog/src/main" className="btn btn-outline-warning">SOURCE</Link>
     </div>
   </div>
 </div>
